@@ -1,0 +1,31 @@
+<html>
+    <body>
+    <h1> Welcome to deployment tool</h1>
+    <form>
+        Careers : <button formaction="http://127.0.0.1:5000/career">Click to check</button>
+            Alumni : <button formaction="http://127.0.0.1:5000/Alumni">Click to check</button>
+            project : <button formaction="http://127.0.0.1:5000/project">Click to check</button>
+            blog : <button formaction="http://127.0.0.1:5000/blog">Click to check</button>
+    </form>
+    <a href="http://127.0.0.1:5000/Alumni"> Alumni </a>
+    <form method="post" action="/Login">
+        <input type="email" name="user_name" placeholder="Email ID">
+        <input type="number" name="ph_no" placeholder="Phone Number">
+        <input type="text" name="password" placeholder="password">
+        <button> Login</button>
+    </form>
+
+    <form method="post" action="/Model">
+        <input type="number" name="preg" placeholder="Enter the amount of pregenancies">
+        <input type="number" name="plas" placeholder="Plasma">
+        <input type="number" name="pres" placeholder="Pres">
+        <input type="number" name="skin" placeholder="Skin">
+        <input type="number" name="test" placeholder="Test">
+        <input type="number" name="pedi" placeholder="Pedi">
+        <input type="number" name="mass" placeholder="Mass">
+        <input type="number" name="age" placeholder="Age">
+        <button> Predict </button>
+    </form>
+
+    </body>
+</html>
